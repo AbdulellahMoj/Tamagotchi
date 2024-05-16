@@ -1,2 +1,4 @@
-# class-Tamagotchi-
-This Python program simulates a Tamagotchi virtual pet. It includes a Tamagotchi class with attributes like age, hunger level, boredom, and exhaustion.
+# class-Tamagotchi-V2
+This Python program simulates a Tamagotchi virtual pet. It includes a Tamagotchi class with attributes like age, hunger level, boredom, and exhaustion.This Python program simulates a Tamagotchi virtual pet. It includes a `Tamagotchi` class with attributes like age, hunger level, boredom, and exhaustion. The class has methods to perform various activities like eating, drinking, working out, playing, and sleeping, each affecting the pet's attributes differently. The `run` method prompts the user to choose an activity and executes it accordingly.
+
+The program utilizes the `inquirer` library for interactive input. It also employs threading and scheduling to simulate the passage of time. The `main` function initializes a Tamagotchi instance and schedules its activities to run periodically. The program continues to run until the Tamagotchi's health deteriorates, indicating its death.
